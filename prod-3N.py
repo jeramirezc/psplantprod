@@ -34,8 +34,8 @@ l=int(sys.argv[1])
 rep=20000
 perc=float(sys.argv[2])
 Npi=int(perc*l*l/100.)
-Xa=0.1
-Xb=0.19
+Xa=int(sys.argv[3])
+Xb=int(sys.argv[4])
 
 dirs=[[0,1],[0,-1],[1,0],[-1,0],[1,1],[-1,-1],[1,-1],[-1,1]]
 
