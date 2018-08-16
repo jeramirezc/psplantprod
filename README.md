@@ -21,6 +21,7 @@ The unique difference between versions 2N and 3N is the coordination number of s
 Usage
 
 This software is functional in Python 2.x. Run in a console with the following command:
+
 python prod-xN.py l perc Xa Xb
 
 The file 'prod-xN-l-perc.dat' will be created as an output. It contains information about the production yield as a function of p and M under the given conditions of perc, Xa, and Xb.
